@@ -1,0 +1,22 @@
+.page-header{
+	border: 5px solid red;
+}
+
+.page-header>div{
+border: 5px solid green;
+}
+
+.fixed-width{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo{
+font-family: 'Economica', sans-serif;
+font-size: 50px;
+}
+
+ul{
+font-family: 'Ruge Boogie', cursive;
+font-size: 30px;
+}
