@@ -1,9 +1,30 @@
-.page-header{
-	border: 5px solid red;
+body, *, *:before, *:after{
+	box-sizing: border-box;
 }
 
-.page-header>div{
-border: 5px solid green;
+html, body{
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 16px;
+	color: #474747;
+}
+
+a{
+	text-decoration: none;
+	color: inherit; 
+}
+
+
+h1{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+p{
+	margin-top: 10px;
+}
+
+img{
+	display: block;
 }
 
 .fixed-width{
@@ -11,12 +32,70 @@ border: 5px solid green;
 	margin: 0 auto;
 }
 
-.logo{
-font-family: 'Economica', sans-serif;
-font-size: 50px;
+.clearfix:before, .clearfix:after{
+	content: " ";
+	display: table;
 }
 
-ul{
-font-family: 'Ruge Boogie', cursive;
-font-size: 30px;
+.clearfix:after {
+	clear: both;
+}
+
+.page-header{
+	border-top: 5px solid #ebebeb;
+	margin-bottom: 20px;
+}
+
+.page-header .identity{
+	font-size: 3.5em;
+	font-family: 'Pacifico', cursive;
+	position: absolute;
+	bottom: 0;	
+}
+
+.page-header > div{
+	position: relative;
+}
+
+.page-header nav{
+	float: right;
+	font-family: "Economica";
+	text-transform: uppercase;
+}
+
+.page-header li em{
+	color: #474747;
+	font-size: 1.6em;
+	display: block;
+	font-weight: bold;
+}
+
+.page-header nav li{
+	float: left;
+	margin-right: 3rem;
+	padding-top: 3rem;
+	color: #bfbfbf;
+}
+
+.page-header nav li:last-child{
+	margin-right: 0;
+}
+
+.page-footer{
+	border-top: : 25px solid grey;	
+	border-bottom: 25px solid grey;	
+}
+
+footer{
+	background-color: grey;
+}
+
+.page-footer .footer1{
+	background-color: grey;
+	position: absolute;
+}
+
+.page-footer li{
+	float: right;
+	background-color: grey;
 }
