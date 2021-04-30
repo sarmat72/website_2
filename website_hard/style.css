@@ -8,11 +8,14 @@ html, body{
 	color: #474747;
 }
 
+img{
+	border-radius: 5px;
+}
+
 a{
 	text-decoration: none;
 	color: inherit; 
 }
-
 
 h1{
 	margin-bottom: 10px;
@@ -23,8 +26,42 @@ p{
 	margin-top: 10px;
 }
 
-img{
+section img{
+	width: 100%;
+}
+
+.s1{
+	text-align: justify;
+}
+
+.s2{
 	display: block;
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	text-align: justify;
+}
+
+.s2:last-child{
+	margin-right: 0;
+	text-align: justify;
+}
+
+.s3{
+	display: block;
+	float: left;
+	width: 22%;
+	margin-right: 4%;
+	text-align: justify;
+}
+
+.s3:last-child{
+	margin-right: 0;
+	text-align: justify;
+}
+
+.s3 header img{
+	height: 130px;
 }
 
 .fixed-width{
@@ -81,21 +118,65 @@ img{
 	margin-right: 0;
 }
 
-.page-footer{
-	border-top: : 25px solid grey;	
-	border-bottom: 25px solid grey;	
+.page-footer:before{
+	content: " ";
+	display: block;
+	height: 5px;
+	background: url(images/pattern.png) left top repeat-x;
 }
 
-footer{
-	background-color: grey;
+.page-footer{	
+	margin-top: 10px;
+	background-color: green;
+	height: 70px;
 }
-
-.page-footer .footer1{
-	background-color: grey;
-	position: absolute;
-}
-
-.page-footer li{
+/*
+.page-footer div .footer1{
 	float: right;
-	background-color: grey;
+}
+*/
+
+.footer1{
+	text-align: left;
+}
+
+.footer2{
+	float: right;
+}
+
+.s2 header i{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #9a9a9a;
+	float: left;
+	width: 25%;
+}
+
+.s2 header h1{
+	font-size: 1.5rem;
+	float: left;
+	width: 75%;
+}
+
+.MLW{
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	color:  white;
+	font-size: 1.5rem;
+	background: url(202544.jpg) left top repeat-x;
+}
+
+.fom{
+	font-size: 1rem;
+	color: black;
+	font-weight: bold;
+}
+
+.fom > i{
+	font-size: 1rem;
+	color: black;
+	font-weight: bold;
 }
