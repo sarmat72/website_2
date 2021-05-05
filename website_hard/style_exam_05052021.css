@@ -1,0 +1,187 @@
+body, *, *:before, *:after{
+	box-sizing: border-box;
+}
+
+html, body{
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 16px;
+	color: #474747;
+}
+
+img{
+	
+}
+
+a{
+	text-decoration: none;
+	color: inherit; 
+}
+
+h1{
+	margin-bottom: 10px;
+}
+
+p{
+	margin-top: 10px;
+}
+
+section{
+	display: inline;
+}
+
+section img{
+	display: inline;
+	width: 50%;
+	text-align: right;
+	margin-left: 740px;
+	float: right;
+	height: 700px;
+}
+
+section div{
+	position: absolute;
+	display: inline;
+	float: left;
+	width: 740px;
+	text-align: left;
+	background-color: red;
+	height: 700px;
+}
+
+section div h1{
+	font-size: 2rem;
+	font-weight: bold;
+	color: black;
+	margin-left: 50px;
+}
+
+section div p{
+	text-align: left;
+	width: 70%;
+	margin-left: 50px;
+}
+
+footer{
+	
+	background-color: black;	
+}
+
+footer article div{
+	padding-top: 20px;
+	display: block;
+	float: left;
+}
+
+footer article div h1{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+footer article .f3 a, footer article .f4 a, footer article .f5 a{
+	display: block;
+	margin-bottom: 10px;
+}
+
+footer article div h1, footer article div p, footer article div a{
+	color: white;
+}
+
+.f1{
+width: 25%;
+}
+
+.f2{
+width: 45%;
+}
+
+.f3{
+width: 10%;
+text-align: left;
+}
+
+.f4{
+width: 10%;
+text-align: left;
+}
+
+.f5{
+width: 10%;
+text-align: left;
+}
+
+.CDS{
+	font-weight: bold;
+	color: black;
+	margin-right: 20px;
+}
+
+.s1{
+	text-align: justify;
+}
+
+.fixed-width{
+	width: 1480px;
+	margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after{
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.page-header{
+	border-top: 5px solid #ebebeb;
+	margin-bottom: 20px;
+}
+
+.page-header .identity{
+	font-size: 3.5em;
+	font-family: 'Pacifico', cursive;
+	position: absolute;
+	bottom: 0;	
+}
+
+.page-header > div{
+	position: relative;
+}
+
+.page-header nav{
+	float: right;
+	font-family: "Economica";
+	text-transform: uppercase;
+}
+
+.page-header li em{
+	color: #474747;
+	font-size: 1.6em;
+	display: block;
+	font-weight: bold;
+}
+
+.page-header nav li{
+	float: left;
+	margin-right: 3rem;
+	padding-top: 3rem;
+	color: #bfbfbf;
+}
+
+.page-header nav li:last-child{
+	margin-right: 0;
+}
+
+.page-footer:before{
+	content: " ";
+	display: block;
+	height: 5px;
+	background: url(images/pattern.png) left top repeat-x;
+}
+
+.page-footer{	
+	margin-top: 10px;
+	background-color: black;
+	height: 170px;
+}
